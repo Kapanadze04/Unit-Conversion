@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 550px;
+    height: 729px;
+    background: #F4F4F4;
+}
+
+.section-convert {
+    width: 100%;
+    height: 285px;
+    background: #6943FF;
+    text-align: center;
+    padding: 33px 0 34px 0;
+    margin-bottom: 36px;
+}
+
+.section-convert h1 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 28px;
+    color: white;
+}
+
+.section-convert input {
+    all: unset;
+    border: 2px solid  #B295FF;
+    border-radius: 5px;
+    width: 117px;
+    height: 83px;
+    font-weight: 800;
+    color: white;
+    font-size: 58px;
+    margin-bottom: 25px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 9px 27px;
+    background: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3D3D3D;
+}
+
+.section-length,
+.section-volume,
+.section-mass {
+    width: 500px;
+    height: 108.57px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
+    margin-bottom: 23px;
+    padding-top: 31px;
+}
+
+.section-length > h2,
+.section-volume > h2,
+.section-mass > h2 {
+    text-align: center;
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.section-length > p,
+.section-volume > p,
+.section-mass > p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #353535;
+}
+
+
